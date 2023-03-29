@@ -1,0 +1,53 @@
+.sketch-container{
+	display: grid;
+	grid-template-columns:repeat(6, 172px);
+	grid-template-rows: 244px 244px ;
+	justify-content: center;
+	padding: 20px;
+	column-gap: 20px;
+	row-gap: 150px;
+}
+
+
+
+}
+.book-item1{
+    grid-column: 1/2;
+    grid-row: 1/2;  
+}
+.book-item2{
+    grid-column: 2/3;
+    grid-row: 1/2;  
+}
+.book-item3{
+    grid-column: 3/4;
+    grid-row: 1/2;  
+}
+.book-item4{
+    grid-column: 4/5;
+    grid-row: 1/2;  
+}
+.book-item5{
+    grid-column: 5/6;
+    grid-row: 1/2;  
+}
+.book-item6{
+    grid-column: 6/7;
+    grid-row: 1/2;  
+}
+.book-item7{
+	grid-column: 1/2;
+    grid-row: 2/3;
+}
+.book-item8{
+	grid-column: 2/3;
+    grid-row: 2/3;
+}
+.book-item9{
+	grid-column: 3/4;
+    grid-row: 2/3;
+}
+.book-item10{
+	grid-column: 4/5;
+    grid-row: 2/3;
+}
